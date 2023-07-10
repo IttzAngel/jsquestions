@@ -56,6 +56,10 @@ function helloAliyahorHakeem(){}
 
 function getInitials(){}
 
+function printFinalPrice(priceOfProduct, discountAmount){
+  f
+}
+
 printName();
 
 userName = "IttzAngel";
@@ -73,3 +77,25 @@ console.log(checkWeather("sun", 90));
 console.log(areaOfTriangle(10, 5));
 
 console.log(diceRoller());
+
+// let car = "Honda";
+
+const car = {type:"Honda", model:"Civic", color:"Gold"};
+
+car.start = function (){
+  console.log("car goes vroom vroom");
+}
+
+car.drive = function (){
+  console.log("WE NEED TO GO FAST");
+}
+
+car.brake = function (){
+  console.log("AHHHHHHHHHHHH SLOW DOWN");
+}
+
+car.start();
+
+car.drive();
+
+car.brake();
